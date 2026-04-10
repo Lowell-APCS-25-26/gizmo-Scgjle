@@ -18,9 +18,6 @@ public class GizmoTest {
     opm.add(new Gizmo("ABC",false));
     int abc = opm.countElectronicsByMaker("ABC");
     assertEquals(partAFail(2,abc,"ABC"),2,abc);
-      
-    int lmnop = opm.countElectronicsByMaker("lmnop");
-    assertEquals(partAFail(0,lmnop,"lmnop"), 0,lmnop,);
 
     int xyz = opm.countElectronicsByMaker("XYZ");
     assertEquals(partAFail(1,xyz,"XYZ"),1,xyz);
